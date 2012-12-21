@@ -1,0 +1,16 @@
+Curso ExtJS - Aula6 - Herança Simples
+=============================================================================
+https://github.com/loiane/curso-extjs4/blob/master/aula06/index.html
+
+Ext.define nao deve ficar dentro de Ext.onReady
+
+Herança simples
+===============
+
+renderTo: Ext.getBody(); -> Faz a renderizacao dentro da tag body do HTML
+
+initComponent é uma funcao ue permite sobreescrever o comportamento de uma classe
+essa propriedade altera a propriedade padrao da classe mae
+as propriedades setadas nesse espaço nao conseguem ser sobreescritas
+
+o this.callParent() é importante para garantir o envio de alteracoes para o componente pai

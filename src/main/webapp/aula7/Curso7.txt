@@ -1,0 +1,21 @@
+Curso ExtJS - Aula7 - Herança multipla
+=============================================================================
+https://github.com/loiane/curso-extjs4/blob/master/aula07/index.html
+
+ExtJs4 permite a herança multipla
+
+Mixins
+======
+
+Observable - Adiciona capacidade de eventos ao componentes. É aplicado em um tipo Component. 
+Draggable - Capacidade de se clicar a arrastar uma janela. É aplicado em um tipo Window.
+Resizable - Capacidade de alterar o tamanho. É aplicado em um tipo Window.
+
+Em geral mixins nao precisam de uma definicao especifica ou uma extensao de outra classe
+
+Para fazer o bind de uma mixin a uma classe se usa o atributo "mixins"
+
+Mixins sao diferentes de plugins
+
+Plugins alteram a instancia
+Mixins alteram o prototype

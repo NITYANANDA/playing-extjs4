@@ -1,0 +1,32 @@
+Curso ExtJS - Aula5 - Definicao de classes
+=============================================================================
+
+https://github.com/loiane/curso-extjs4/blob/master/aula05/index.html
+
+Ext.define(Nome,Configuracies,Callback);
+
+alias de:
+
+Ext.ClassManager.create(Nome,Configuracies,Callback);
+
+Callback -> é uma funcao chamada apos a classe ser criada
+JavaScripts sao só funcoes, nao sao constituidos de metodos
+
+- sobrescrição de metodo construtor
+
+constructor: function(options) {
+	Ext.apply(this, options || {});
+}
+
+hieraruia de declaracao dentro de classes:
+atributos,
+construtores,
+funcoes
+
+Instanciacao de classes
+
+Ext.create(Nome, opcoes);
+eh 1 alias de:
+Ext.ClassManager.instantiate(Nome, opcoes);
+
+Nomenclatura de classes no sistema CamelCase

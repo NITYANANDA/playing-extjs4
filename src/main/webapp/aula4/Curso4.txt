@@ -1,0 +1,7 @@
+Curso ExtJS - Aula4
+=============================================================================
+
+Integração JQuery + ExtJS4
+
+São compativeis.
+O Ext.onReady() do ExtJS4 equivale ao $(document).ready() do JQuery.

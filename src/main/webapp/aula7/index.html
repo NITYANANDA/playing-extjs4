@@ -1,0 +1,35 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="../extjs/resources/css/ext-all.css">
+	<script type="text/javascript" src="../extjs/ext-all-dev.js"></script>
+	<script type="text/javascript" src="../jquery/jquery.min.js"></script>
+</head>
+<body>
+	<div id="botao01"></div>
+	<div id="botao02"></div>
+	<div id="botao03"></div>
+</body>
+<script type="text/javascript">
+
+	Ext.define('CursoExt4.aula06.MeuBotao', {
+		extend: 'Ext.button.Button',
+		renderTo: Ext.getBody(),
+		initComponent: function() {
+			this.text = 'Meu Botao';
+			this.callParent();
+		}		
+	});
+
+	Ext.onReady(function(){
+		Ext.create('MeuBotao', {
+			renderTo: 'botao01'
+		});
+		Ext.create('MeuBotao', {
+			renderTo: 'botao02'
+		});
+		Ext.create('MeuBotao', {
+			renderTo: 'botao03'
+		});				
+	});
+</script>
+</html>

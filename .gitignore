@@ -1,0 +1,19 @@
+Eclipse configuration files
+###########################
+.classpath
+.project
+.settings/
+target/
+bin/
+
+Java bytecode
+##########
+*.class
+
+Generic files
+#############
+*~
+*.lock
+*.DS_Store
+*.swp
+*.out

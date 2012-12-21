@@ -1,0 +1,13 @@
+Curso ExtJS - Aula2
+=============================================================================
+
+Edito de texto: Sublime Text 2
+
+Pastas necessárias para produção:
+- resources
+- ext-all-dev.js
+
+Iniciando projeto básico:
+- Import de css e js básicos
+
+pasta padrão: extjs

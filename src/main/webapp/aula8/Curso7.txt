@@ -1,0 +1,16 @@
+Curso ExtJS - Aula8 - Alias + xType
+===================================
+https://github.com/loiane/curso-extjs4/blob/master/aula08/index.html
+
+O alias simplifica a istanciacao de uma classe com nome longo
+Todo alias para componente depende do prefixo de componente
+alias sao escritos sempre com letra minuscula como convencao
+
+
+classes definidas com alias de widget podem ser instanciadas como Ext.widget
+
+todo o componente na documentacao possue um xtype (que é o alias) definido ao lado
+
+na documentacao em Ext.Component existe uma lista que contem referencia para todos os alias de classes
+
+ou seja Ext.button.Button -> xtype: button
