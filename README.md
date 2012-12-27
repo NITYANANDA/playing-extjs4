@@ -12,14 +12,14 @@ Follow <a href="http://twitter.com/fpierin" target="_blank">@fpierin</a> on Twit
 
 ## Summary
 
-* <b>Aula01</b> Introdução e conceitos
-* <b>Aula02</b> Apresentação da estrutura do framework
-* <b>Aula03</b> Criando componentes
-* <b>Aula04</b> Integração JQuery + ExtJS4
-* <b>Aula05</b> Definição de classes
-* <b>Aula06</b> Herança simples
-* <b>Aula07</b> Herança múltipla
-* <b>Aula08</b> Alias + xType
+* <b>Aula01</b> - Introdução e conceitos
+* <b>Aula02</b> - Apresentação da estrutura do framework
+* <b>Aula03</b> - Criando componentes
+* <b>Aula04</b> - Integração JQuery + ExtJS4
+* <b>Aula05</b> - Definição de classes
+* <b>Aula06</b> - Herança simples
+* <b>Aula07</b> - Herança múltipla
+* <b>Aula08</b> - Alias + xType
 * <b>Aula09</b> -
 
 ## Contributors
